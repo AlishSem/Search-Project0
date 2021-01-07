@@ -18,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styless.css">
 </head>
 
 <body>
@@ -37,10 +37,32 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html"> Main Search </a>
                 </li>
-
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+            <form action="https://google.com/search">
+                <table>
+                <tr>
+                <th><label for="first">Find pages with… “all these words:”</label></th>
+                <th><input type="text" name="as_q"></th>
+                </tr>
+                <tr>
+                <th><label for="first">Find pages with… “this exact word or phrase:”</label></th>
+                <th><input type="text" name="as_epq"></th>
+                </tr>
+                <th><label for="first">Find pages with… “this exact word or phrase:”</label></th>
+                <th><input type="text" name="as_oq"></th>
+                </tr>
+                <th><label for="first">Find pages with… “none of these words:”</label></th>
+                <th><input type="text" name="as_eq"></th>
+                </tr>
+                </table>
+                <input type="submit" value="Search On Google">
+            </form>
+        
+    </div>
 
 
 </body>
